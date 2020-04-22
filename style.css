@@ -1,0 +1,105 @@
+*{
+  font-family: monospace;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+/*uno esta debajo del otro*/
+header section footer aside nav article hgroup {
+  display: block;
+}
+
+.logo{
+  padding: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 350px;
+  display: left;
+}
+
+.user{
+  background: #a699b0;
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+  width:30%;
+}
+
+h1 {
+  background: #ff927c;
+  font-size: 30px;
+  font-family: monospace;
+  display: bottom;
+}
+
+
+/* div donde agregue todo el body */
+.agrupar {
+  width: 960px;
+  border: 1px solid white;
+  text-align: left;
+  padding: 40px;
+  clear: both;
+}
+
+/* nav */
+.menu{
+  background: #ffd965;
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.menu li{
+  font-style: italic;
+  border: solid 1px grey;
+}
+
+ul li {
+display: inline;
+padding: 0px 20px 10px 10px;
+border-right: 1 solid black;
+}
+
+.seccion{
+  margin: 20px 0;
+  width: 70%;
+  padding: 0px;
+  background-color: #81d8d0;
+  float:left;
+}
+
+.columna{
+  margin: 20px 0;
+  width: 25%;
+  border: solid 1px #ffd965;
+  float:right;
+  font-size: 15px;
+  padding: 20px;
+}
+
+article{
+  text-align: left;
+  font-size: 25px;
+  padding: 20px;
+  margin-bottom: 15px;
+
+}
+.catalogo{
+  width: auto;
+  float:left;
+  background: #a699b0;
+  text-decoration-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.pie {
+  background: #c6d2c4;
+  clear: both;
+}
