@@ -1,21 +1,18 @@
 *{
-  font-family: monospace;
+  font-family: 'Rubik', sans-serif;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
 }
 
-/*uno esta debajo del otro*/
-header section footer aside nav article hgroup {
-  display: block;
-}
-
 .logo{
-  padding: 150px;
+  image-resolution:from-image;
+  width: 600px; height: 150px;
+  padding: 0px;
   padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 350px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: left;
 }
 
@@ -31,7 +28,6 @@ header section footer aside nav article hgroup {
 h1 {
   background: #ff927c;
   font-size: 30px;
-  font-family: monospace;
   display: bottom;
 }
 
@@ -43,6 +39,11 @@ h1 {
   text-align: left;
   padding: 40px;
   clear: both;
+}
+
+.search {
+  padding: 20px;
+
 }
 
 /* nav */
@@ -68,7 +69,7 @@ border-right: 1 solid black;
 
 .seccion{
   margin: 20px 0;
-  width: 70%;
+  width: 75%;
   padding: 0px;
   background-color: #81d8d0;
   float:left;
@@ -76,11 +77,19 @@ border-right: 1 solid black;
 
 .columna{
   margin: 20px 0;
-  width: 25%;
-  border: solid 1px #ffd965;
+  width: 20%;
+  border: 1px solid #ffd965;
   float:right;
   font-size: 15px;
   padding: 20px;
+}
+
+.columna li{
+  display: flex;
+  padding: 30px;
+  border: 1px solid #ffd965;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 article{
@@ -92,11 +101,16 @@ article{
 }
 .catalogo{
   width: auto;
-  float:left;
+  float: left;
   background: #a699b0;
   text-decoration-color: white;
   text-align: center;
   padding: 20px;
+}
+
+.catalogo div {
+  width: 23%;
+  display: inline-block;
 }
 
 .pie {

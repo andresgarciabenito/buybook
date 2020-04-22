@@ -8,41 +8,15 @@
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>Buy Book.com</title>
     <link rel="stylesheet" href="style.css">
-
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 
   <body>
 <!-- se mete el body en un div para poder editarlo en css -->
   <div class="agrupar">
 
     <header>
-      <img class="logo" source src="C:\Users\andre\Desktop\BuyBook\images\BBlogo.png" type="img" width="250" height="125">
 
-
-      <details open class="user">
-        <summary>SHOP</summary>
-        Cart<br>
-        Log In <br>
-        Sign In<br>
-        Wishlist<br>
-        Order Status<br>
-      </details>
-
-      <h1>BUYBOOK.com</h1>
-    </header>
-
-
-<!--<li><a href="">da error -->
-    <nav class="menu">
-      <ul>
-        <li>SEARCH</li>
-        <li>Categories</li>
-        <li>Bestsellers</li>
-        <li>SALE</li>
-        <li>New Releases</li>
-      </ul>
-
-      <details>
+      <details class="Home">
         <summary>MENU</summary>
         BUYBOOK.com <br>
         About Us  <br>
@@ -54,14 +28,37 @@
         Suscribe <br>
       </details>
 
-      <dialog id="dialogo">COUPON:NEWUSER25OFF</dialog>
 
-      <p>
-        New User? Sign In and get a 25% OFF <br>
-        <br>
-        <button type="button" onclick="document.getElementById('dialogo').open=true;">Get Coupon!</button>
-        <button type="button" onclick="document.getElementById('dialogo').open=false;">Close Coupon</button>
-      </p>
+      <img class="logo" source src="C:\Users\andre\Desktop\BuyBook\images\buybookLogo.png" type="img" width="250" height="125">
+
+
+      <details open class="user">
+        <summary>SHOP</summary>
+        Cart<br>
+        Log In <br>
+        Sign In<br>
+        Wishlist<br>
+        Order Status<br>
+      </details>
+
+      <h1> <dialog id="dialogo">COUPON:NEWUSER25OFF</dialog>
+      <p> New User? >>Sign In to get a 25% OFF<<</h1>
+    </header>
+
+
+<!--<li><a href="">da error -->
+    <nav class="menu">
+      <ul>
+        <li>Categories</li>
+        <li>Bestsellers</li>
+        <li>SALE</li>
+        <li>New Releases</li>
+        <li>Coming soon</li>
+        <form action="search.php" method="get">
+        <input type="search" name="q" placeholder="search by name/author/ISBN"   required="required">
+        <button type="submit">Search</button>
+        </form>
+      </ul>
 
     </nav>
 
@@ -77,8 +74,234 @@
         </article>
 
 
+        <div class="catalogo">
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788433998064.jpg" type="img" width="143" height="255"><br>
+            9788433998064 <br>
+            Las cosas que perdimos en el fuego <br>
+            Mariana Enriquez <br>
+            Spanish <br>
+            16,00 € (euros) <br>
+            2016 <br>
+            200 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
 
-        <table class="catalogo">
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788433998248.jpg" type="img" width="143" height="255"><br>
+            9788433937735 <br>
+            Los peligros de fumar en la cama <br> <br>
+            Mariana Enriquez <br>
+            Spanish <br>
+            16,05 € (euros) <br>
+            2018 <br>
+            208 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788433998859.jpg" type="img" width="143" height="255"><br>
+            9788433998859 <br>
+            Nuestra parte de noche <br> <br>
+            Mariana Enriquez <br>
+            Spanish <br>
+            21,75 € (euros) <br>
+            2019 <br>
+            680 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9780451495112.jpg" type="img" width="143" height="255"><br>
+            9780451495112 <br>
+            Things we lost in the fire <br> <br>
+            Mariana Enriquez <br>
+            English <br>
+            21,14 € (euros) <br>
+            2017 <br>
+            200 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788498382662.jpg" type="img" width="143" height="255"><br>
+            9788498382662 <br>
+            Harry Potter y la Piedra Filosofal <br> <br>
+            J.K. Rowling <br>
+            Spanish <br>
+            14,25 € (euros) <br>
+            1999 <br>
+            264 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788498382679.jpg" type="img" width="143" height="255"><br>
+            9788498382679 <br>
+            Harry Potter y la Cámara Secreta <br> <br>
+            J.K. Rowling <br>
+            Spanish <br>
+            15,20 € (euros) <br>
+            2010 <br>
+            288 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788498383430.jpg" type="img" width="143" height="255"><br>
+            9788498383430 <br>
+            Harry Potter y el Prisionero de Azkaban <br>
+            J.K. Rowling <br>
+            Spanish <br>
+            14,25 € (euros) <br>
+            2011 <br>
+            360 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788418173110.jpg" type="img" width="143" height="255"><br>
+            9788418173110 <br>
+            Harry Potter y el Cáliz de Fuego <br> <br>
+            J.K. Rowling <br>
+            Spanish <br>
+            12,35 € (euros) <br>
+            2020 <br>
+            272 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9783836535632.jpg" type="img" width="143" height="255"><br>
+            9783836535632 <br>
+            Neo Rauch <br> <br>
+            Wolfgang Büscher <br>
+            English, French, German <br>
+            49,99 € (euros) <br>
+            2013 <br>
+            464 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9783941847354.jpg" type="img" width="143" height="255"><br>
+            9783941847354 <br>
+            Neo Rauch at Bötzow <br> <br>
+            Rudij Bergmann <br>
+            English, German <br>
+            30,04 € (euros) <br>
+            2015 <br>
+            96 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9783775743815.jpg" type="img" width="143" height="255"><br>
+            9783775743815 <br>
+            Neo Rauch <br> Dromos <br> <br>
+            Michael Glover <br>
+            English <br>
+            16,00 € (euros)<br>
+            2019 <br>
+            144 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788360713518.jpg" type="img" width="143" height="255"><br>
+            9788360713518 <br>
+            Neo Rauch <br> Begleiter Mit Realizmu <br>
+            Neo Rauch <br>
+            English,Polish<br>
+            32,93 € (euros) <br>
+            2011 <br>
+            85 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788499894454.jpg" type="img" width="143" height="255"><br>
+            9788499894454 <br>
+            Eramos unos niños <br> <br> <br>
+            Patti Smith <br>
+            Castellano <br>
+            16,90 € (euros) <br>
+            2012 <br>
+            304 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788466342223.jpg" type="img" width="143" height="255"><br>
+            9788466342223 <br>
+            M Train <br> <br> <br>
+            Patti Smith <br>
+            Spanish <br>
+            20,90 € (euros) <br>
+            2018 <br>
+            288 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788426407740.jpg" type="img" width="143" height="255"><br>
+            9788426407740 <br>
+            El año del mono <br> <br> <br>
+            Patti Smith <br>
+            Spanish <br>
+            17,95 € (euros) <br>
+            2020 <br>
+            224 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\9788426406248.jpg" type="img" width="143" height="255"><br>
+            9788426406248 <br>
+            Augurios de Inocencia <br> <br>
+            Mariana Enriquez <br>
+            Patti Smith <br>
+            Spanish <br>
+            13,20 € (euros) <br>
+            200 pages <br>
+            <img class="" source src="C:\Users\andre\Desktop\BuyBook\images\AddToCart.png" type="img" width="143" height="52"><br>
+            </p>
+          </div>
+
+
+        </div>
+        <!-- <table class="catalogo">
 
         <caption>Catálogo</caption>
         <thead>
@@ -113,22 +336,23 @@
             <td>13 euros</td>
             <td>2012</td>
           </tr>
-      </table>
+      </table> -->
       </section>
 
     </body>
 
     <aside class="columna">
+
       <nav>
         <h2>Find More:</h2>
-        <ul>
-          <li>Bargain Shop</li><br>
-          <li>BookXFREE</li><br>
-          <li>Ask the Author</li><br>
-          <li>Out of Stock</li><br>
-          <li></li><br>
-        </ul>
-      </nav>
+          <ul>
+            <li>Bargain Shop</li><br>
+            <li>BookXFREE</li><br>
+            <li>Ask the Author</li><br>
+            <li>Out of Stock</li><br>
+          </ul>
+        </nav>
+
     </aside>
     <footer class="pie">
       <ol>
@@ -143,13 +367,13 @@
       </ol>
     </footer>
   </div>
-<!--
 
-  <h1>Contact Us</h1>
+
+  <h1>Log In</h1>
   <form class="" action="#" method="post">
     <p>
       <label for="username">Name:</label>
-      <input type="text" id="username" name="username" value="" size="30" placeholder="Insert your user name here"maxlength="10" required autofocus>
+      <input type="text" id="username" name="username" value="" size="30" placeholder="Insert your user name here"maxlength="10" required>
     </p>
 
     <p>
@@ -161,9 +385,13 @@
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" value="" size="30" placeholder="Insert your password here" maxlength="10" required>
     </p>
-
-
     <p>
+      <button type="submit" name="button">Log In</button>
+      <button type="reset" name="button">Clear</button>
+    </p>
+
+<!-- no aplica, para agregar fechas -->
+    <!-- <p>
       <label for="number">Date:</label>
       <input type="number" id="number" name="number" value="" min="0" max="100" step="1">
     </p>
@@ -171,9 +399,10 @@
     <p>
       <label for="date">Date:</label>
       <input type="date" id="fecha" name="fecha" value="">
-    </p>
+    </p> -->
 
     <p>
+    <h2>Contact Us</h2>
       <label for="comments">Comments:</label>
       <textarea name="comments" rows="5" cols="50" name="comments"></textarea>
     </p>
@@ -182,7 +411,8 @@
       <button type="submit" name="button">Send</button>
       <button type="reset" name="button">Clear</button>
     </p>
-      </form> -->
+
+      </form>
 
 
 </html>
