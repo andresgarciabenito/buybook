@@ -1,3 +1,6 @@
+body{
+  background: white;
+}
 *{
   font-family: 'Rubik', sans-serif;
   padding-top: 5px;
@@ -7,89 +10,77 @@
 
 .logo{
   image-resolution:from-image;
-  width: 600px; height: 150px;
-  padding: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 600px;
+  height: 150px;
+  padding: 10px;
   display: left;
 }
 
 .user{
+  width:30%;
+  padding: 20px;
   background: #a699b0;
+  display: inline-flex;
   font-style: italic;
   font-size: 20px;
-  padding: 20px;
-  display: inline-block;
-  width:30%;
 }
 
 h1 {
+  padding: 0px;
   background: #ff927c;
   font-size: 30px;
   display: bottom;
 }
+/*
+.menu {
+  padding: 2px 0px 0px 0px;
+  background: ;
+} */
 
-
-/* div donde agregue todo el body */
-.agrupar {
-  width: 960px;
-  border: 1px solid white;
-  text-align: left;
-  padding: 40px;
-  clear: both;
+.menu  li a{
+  background-color: #CCAD50;
+  color: #fff;
+  text-decoration: none;
+  margin: 2px 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-style: normal;
+  display:block;
 }
 
-.search {
-  padding: 20px;
-
+.menu li a:hover {
+  background-color: #FFD965;
 }
 
-/* nav */
-.menu{
-  background: #ffd965;
-  font-style: italic;
-  font-size: 20px;
-  padding: 20px;
-  text-align: left;
-  margin-bottom: 0px;
+.menu > li {
+  float: left;
 }
 
-.menu li{
-  font-style: italic;
-  border: solid 1px grey;
+.menu li ul{
+  display:none;
+  position: absolute;
+  min-width: 140px;
 }
 
-ul li {
-display: inline;
-padding: 0px 20px 10px 10px;
-border-right: 1 solid black;
+.menu li:hover>ul {
+  display:block;
 }
 
 .seccion{
-  margin: 20px 0;
   width: 75%;
+  margin: 0px 0;
   padding: 0px;
   background-color: #81d8d0;
   float:left;
 }
 
 .columna{
-  margin: 20px 0;
   width: 20%;
-  border: 1px solid #ffd965;
-  float:right;
-  font-size: 15px;
+  margin: 0px 0;
   padding: 20px;
-}
-
-.columna li{
-  display: flex;
-  padding: 30px;
-  border: 1px solid #ffd965;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  border: px solid grey;
+  float: right;
+  font-size: 15px;
 }
 
 article{
@@ -114,6 +105,16 @@ article{
 }
 
 .pie {
+
   background: #c6d2c4;
   clear: both;
+}
+
+.pie li{
+  margin: 2px 40px;
+  padding: 2px 0;
+  border: solid 1px white;
+  font-size: 20px;
+  font-style: normal;
+  display: inline-block;
 }
