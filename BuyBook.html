@@ -12,43 +12,44 @@
 
   <body>
     <header>
-      <details class="Home">
-        <summary>MENU</summary>
-        BUYBOOK.com <br>
-        About Us  <br>
-        Home <br>
-        Contact Us <br>
-        FAQs <br>
-        Invite Friends <br>
-        FOLLOW US <br>
-        Suscribe <br>
-      </details>
+      <div class="home">
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">CONTACT US</a></li>
+        <li><a href="">FAQs</a></li>
+        <li><a href="">Invite friends</a></li>
+        <li><a href="">CART</a></li>
+        <li><a href="">Log In</a></li>
+        <li><a href="">Sign In</a></li>
+        <li><a href="">Wishlist</a></li>
+        <li><a href="">Order Status</a></li>
+      </ul>
+      </div>
 
+      <div class="contenedorlogo">
+        <img class="logo" source src="C:\Users\andre\Desktop\BuyBook\images\buybooklogo2.png" type="img" width="300" height="75">
+      </div>
 
-      <img class="logo" source src="C:\Users\andre\Desktop\BuyBook\images\buybookLogo.png" type="img" width="250" height="125">
+      <div class="contenedorsearch">
+      <form  action="search.php" method="get">
+      <input class="search" type="search" name="q" placeholder="(author) (title) (ISBN)"   required="required">
+      <button type="submit">Search</button>
+      </form>
+      </div>
 
+    <div class="banner">
+      <h1>New User? >>Sign In to get a 25% OFF<< </h1>
+    </div>
 
-      <details open class="user">
-        <summary>SHOP</summary>
-        Cart<br>
-        Log In <br>
-        Sign In<br>
-        Wishlist<br>
-        Order Status<br>
-      </details>
-
-      <h1> <dialog id="dialogo">COUPON:NEWUSER25OFF</dialog>
-      <p> New User? >>Sign In to get a 25% OFF<<</h1>
     </header>
 
     <nav>
-      <div class="botonera">
+      <div class="barra">
 
         <ul class="menu">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Shop by Categories</a>
+          <li><a href="#">Categories</a>
             <ul>
-              <li><a href="#">Submenu 1</a>
                 <li>Art & Photography</li>
                 <li>Biography</li>
                 <li>Children's Books</li>
@@ -69,10 +70,7 @@
           <li><a href="#">SALE</a></li>
           <li><a href="#">New Releases</a></li>
           <li><a href="#">Coming soon</a></li>
-          <li><form action="search.php" method="get">
-          <input type="search" name="q" placeholder="(author) (title) (ISBN)"   required="required">
-          <button type="submit">Search</button>
-          </form></li>
+
       </ul>
 
     </div>

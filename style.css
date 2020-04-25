@@ -8,63 +8,109 @@ body{
   padding-left: 5px;
 }
 
-.logo{
-  image-resolution:from-image;
-  width: 600px;
-  height: 150px;
-  padding: 10px;
-  display: left;
-}
-
-.user{
-  width:30%;
-  padding: 20px;
-  background: #a699b0;
-  display: inline-flex;
-  font-style: italic;
-  font-size: 20px;
-}
-
-h1 {
-  padding: 0px;
-  background: #ff927c;
-  font-size: 30px;
-  display: bottom;
-}
-/*
-.menu {
-  padding: 2px 0px 0px 0px;
-  background: ;
-} */
-
-.menu  li a{
-  background-color: #CCAD50;
+.home {
+  background-color: #a699b0;
   color: #fff;
+  width: 100%;
   text-decoration: none;
-  margin: 2px 10px;
-  padding: 10px 15px;
   font-size: 18px;
   font-style: normal;
   display:block;
+  list-style:none ;
+  float:left;
 }
 
-.menu li a:hover {
+.home > ul li {
+  float: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+.contenedorlogo{
+  width: 35%;
+  background: #806E8E;
+  margin-right: 0px;
+  display:block;
+  float: left;
+}
+
+.logo{
+  image-resolution:from-image;
+  padding: 0px;
+  margin: 0px;
+  width: 400px;
+  height: 112px;
+}
+
+.contenedorsearch{
+  width: 64%;
+  height: 96px;
+  background: #806E8E;
+  padding-top: 25px;
+  margin-left: 0px;
+  display:block;
+  float:right;
+}
+
+.search{
+  width: 650px;
+  height: 40px ;
+  padding-top: 20px;
+}
+
+
+.banner {
+  /* margin-top:10px;
+  padding: 5px 5px; */
+  background: #ff927c;
+  font-size: 15px;
+  display:block;
+  clear:both;
+}
+
+.barra {
+  margin: auto;
+  padding: 0px;
+}
+
+.menu li a{
   background-color: #FFD965;
+  color: #fff;
+  text-decoration: none;
+  /* margin: 2px 10px; */
+  padding: 10px 20px;
+  margin: 0 0px 10px;
+  font-size: 18px;
+  font-style: normal;
+  display:block;
+  list-style: none;
+}
+
+/* color al pasar el cursor */
+.menu li a:hover {
+  background-color: #CCAD50;
 }
 
 .menu > li {
   float: left;
+  list-style: none;
 }
 
+/* desaparecen los submenu */
 .menu li ul{
   display:none;
   position: absolute;
   min-width: 140px;
+  list-style: none;
 }
 
+/* aparecen los submenu */
 .menu li:hover>ul {
   display:block;
 }
+
+
+
 
 .seccion{
   width: 75%;
