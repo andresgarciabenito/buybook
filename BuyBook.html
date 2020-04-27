@@ -12,17 +12,28 @@
 
   <body>
     <header>
-      <div class="home">
-      <ul>
+      <div class="homediv">
+      <ul class="home">
         <li><a href="">HOME</a></li>
-        <li><a href="">CONTACT US</a></li>
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Invite friends</a></li>
-        <li><a href="">CART</a></li>
+        <li><a href="">Help</a></li>
+        <li><select class="languages" name="Language">
+          <option lang="en" value="english">English</option>
+          <option lang="es" value="spanish">Español</option>
+          <option lang="ca" value="catalan">Catalan</option>
+          <option lang="pt" value="portuguese">Portuguese</option>
+          <option lang="fr" value="french">Français</option>
+          <option lang="it" value="italian">Italiano</option>
+        </select></li>
         <li><a href="">Log In</a></li>
-        <li><a href="">Sign In</a></li>
+        <li><a href="">Sign Up</a></li>
         <li><a href="">Wishlist</a></li>
         <li><a href="">Order Status</a></li>
+        <li><a href="">CART (0)</a></li>
+        <li><select class="currency" name="currency">
+          <option  value="english">USD</option>
+          <option  value="spanish">EUR</option>
+        </select></li>
+
       </ul>
       </div>
 
@@ -32,15 +43,14 @@
 
       <div class="contenedorsearch">
       <form  action="search.php" method="get">
-      <input class="search" type="search" name="q" placeholder="(author) (title) (ISBN)"   required="required">
+      <input class="search" type="search" name="q" placeholder="  search for books by keyword / author / title / ISBN"   required="required">
       <button type="submit">Search</button>
       </form>
       </div>
 
     <div class="banner">
-      <h1>New User? >>Sign In to get a 25% OFF<< </h1>
+        <img source src="C:\Users\andre\Desktop\BuyBook\images\25off.png" type="img" width="750" height="75">
     </div>
-
     </header>
 
     <nav>
@@ -51,18 +61,18 @@
           <li><a href="#">Categories</a>
             <ul>
                 <li>Art & Photography</li>
+                <li>Anime & Manga</li>
                 <li>Biography</li>
                 <li>Children's Books</li>
                 <li>Crafts & Hobbies</li>
-                <li>Art & Photography</li>
                 <li>Crime & Thriller</li>
                 <li>Fiction</li>
                 <li>Food & Drink</li>
-                <li>Graphic Novels, Anime & Manga</li>
+                <li>Graphic Novels</li>
                 <li>History & Archaeology</li>
-                <li>Mind, Body & Spirit</li>
-                <li>Science Fiction, Fantasy & Horror</li>
-                <li>Travel Books</li>
+                <li>Philosophy & Psychology</li>
+                <li>Science Fiction</li>
+                <li>Travel</li>
             </ul>
           </li>
 
@@ -365,15 +375,42 @@
 
     </aside>
 
-    <footer class="pie">
-      <div>
-        <li>Home</li>
+    <footer>
+      <div class="container-body">
+          <div class="column1">
+            <h1>
+              HOME
+            </h1>
+            <ul>
+              <li>Contact Us</li>
+              <li>FAQs</li>
+              <li>Invite Friends</li>
+              <li>Referral</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+
+          <div class="column1">
+            <h1>
+              HOME
+            </h1>
+            <ul>
+              <li>Contact Us</li>
+              <li>FAQs</li>
+              <li>Invite Friends</li>
+              <li>Referral</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+
+
+        <!-- <li>Home</li>
         <li>Contact Us</li>
         <li>FAQs</li>
         <li>Invite Friends</li>
         <li>FOLLOW US</li>
         <li>About Us</li>
-        <li>Suscribe</li>
+        <li>Suscribe</li> -->
       </div>
     </footer>
 
