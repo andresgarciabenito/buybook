@@ -12,10 +12,13 @@
 
   <body>
     <header>
+      <div class="header-background">
+
       <div class="homediv">
       <ul class="home">
         <li><a href="">HOME</a></li>
         <li><a href="">Help</a></li>
+
         <li><select class="languages" name="Language">
           <option lang="en" value="english">English</option>
           <option lang="es" value="spanish">Español</option>
@@ -24,38 +27,40 @@
           <option lang="fr" value="french">Français</option>
           <option lang="it" value="italian">Italiano</option>
         </select></li>
-        <li><a href="">Log In</a></li>
-        <li><a href="">Sign Up</a></li>
-        <li><a href="">Wishlist</a></li>
-        <li><a href="">Order Status</a></li>
-        <li><a href="">CART (0)</a></li>
         <li><select class="currency" name="currency">
           <option  value="english">USD</option>
           <option  value="spanish">EUR</option>
         </select></li>
 
+        <li><a href="">Log In</a></li>
+        <li><a href="">Sign Up</a></li>
+        <li><img src="C:\Users\andre\Desktop\BuyBook\images\wishlist2.png" type="img" width="30" height="30"></li>
+        <li><a href="">Wishlist</a></li>
+        <li><img src="C:\Users\andre\Desktop\BuyBook\images\orderstatus2.png" type="img" width="30" height="30"></li>
+        <li><a href="">Order Status</a></li>
+        <li><img src="C:\Users\andre\Desktop\BuyBook\images\cart2.png" type="img" width="30" height="30"></li>
+        <li><a href="">CART (0)</a></li>
       </ul>
       </div>
-
       <div class="contenedorlogo">
         <img class="logo" source src="C:\Users\andre\Desktop\BuyBook\images\buybooklogo2.png" type="img" width="300" height="75">
       </div>
 
       <div class="contenedorsearch">
       <form  action="search.php" method="get">
-      <input class="search" type="search" name="q" placeholder="  search for books by keyword / author / title / ISBN"   required="required">
+      <input class="search" type="search" name="q" placeholder="  Search for books by keyword / author / title / ISBN"   required="required">
       <button type="submit">Search</button>
       </form>
       </div>
 
-    <div class="banner">
-        <img source src="C:\Users\andre\Desktop\BuyBook\images\25off.png" type="img" width="750" height="75">
-    </div>
-    </header>
+      <div class="banner">
+          <img source src="C:\Users\andre\Desktop\BuyBook\images\25off.png" type="img" width="750" height="75">
+      </div>
+      </div>
+      </header>
 
     <nav>
       <div class="barra">
-
         <ul class="menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">Categories</a>
@@ -80,19 +85,16 @@
           <li><a href="#">SALE</a></li>
           <li><a href="#">New Releases</a></li>
           <li><a href="#">Coming soon</a></li>
-
       </ul>
-
     </div>
     </nav>
 
 
         <section class="seccion">
         <article>
-          <p>Welcome to BuyBook.com! We have more than 20 million titles and free delivery worldwide to over 170 countries. We also really, really love books.<br />
-        </article>
-
-        <article >
+          <p>Welcome to BuyBook.com! We have more than 20 million titles and free delivery worldwide to over 170 countries. We also really, really love books.
+          <br />
+          <br />
           Looking for your new favourite book? Browse some of our top categories such as Thriller, Fiction, Graphic Novels, Food & Drink, Crafts & Hobbies, Art & Photography, Biography.<br />
         </article>
 
@@ -376,47 +378,70 @@
     </aside>
 
     <footer>
-      <div class="container-body">
-          <div class="column1">
-            <h1>
-              HOME
-            </h1>
-            <ul>
-              <li>Contact Us</li>
-              <li>FAQs</li>
-              <li>Invite Friends</li>
-              <li>Referral</li>
-              <li>About Us</li>
-            </ul>
-          </div>
+      <div class="container-footer-all">
+        <div class="container-body">
+            <div class="footer-column1">
+              <h3>BuyBook.com</h3>
+              <ul>
+                <li>About us</li>
+                <li>Contact Us</li>
+                <li>History</li>
+                <li>Purpose & Values</li>
+                <li>Join us</li>
+              </ul>
+            </div>
 
-          <div class="column1">
-            <h1>
-              HOME
-            </h1>
-            <ul>
-              <li>Contact Us</li>
-              <li>FAQs</li>
-              <li>Invite Friends</li>
-              <li>Referral</li>
-              <li>About Us</li>
-            </ul>
-          </div>
+            <div class="footer-column2">
+              <h3>Help</h3>
+                <ul>
+                <li>Sign In - Manage Account</li>
+                <li>Sign Up</li>
+                <li>Help Center - FQAs</li>
+                <li>Order Status</li>
+                <li>Privacy Policy & Cookies</li>
+                </ul>
+            </div>
+
+            <div class="footer-column3">
+              <h3>Follow Us</h3>
+                <div class="row">
+                  <img src="C:\Users\andre\Desktop\BuyBook\images\insta.png" alt="">
+                  <label for="">Instagram @buybook</label>
+                </div>
+
+                <div class="row">
+                  <img src="C:\Users\andre\Desktop\BuyBook\images\face.png" alt="">
+                  <label for="">Facebook "Buy Book"</label>
+                </div>
+
+                <div class="row">
+                  <img src="C:\Users\andre\Desktop\BuyBook\images\twit.png" alt="" type="img">
+                  <label for="">Twitter @buybook</label>
+                </div>
+            </div>
+
+            <div class="footer-column4">
+              <h3>Subscribe</h3>
+
+              <input type="email" placeholder=" enter your e-mail "name="" value="">
+              <input type="submit" name="" value="Subscribe">
+              <h3>Payment methods</h3>
+              <img src="C:\Users\andre\Desktop\BuyBook\images\paymentmethod.png" alt="">
+            </div>
 
 
-        <!-- <li>Home</li>
-        <li>Contact Us</li>
-        <li>FAQs</li>
-        <li>Invite Friends</li>
-        <li>FOLLOW US</li>
-        <li>About Us</li>
-        <li>Suscribe</li> -->
+        </div>
+
+        <div class="container-footer">
+          <label for=""></label>
+        </div>
       </div>
     </footer>
 
 
 
-  <h1>Log In</h1>
+  <!-- Log In
+   name="" value=""><h1>Log In</h1>
   <form class="" action="#" method="post">
     <p>
       <label for="username">Name:</label>
@@ -449,7 +474,7 @@
       <button type="reset" name="button">Clear</button>
     </p>
 
-      </form>
+      </form> -->
 
 
 </html>
