@@ -4,11 +4,9 @@ body{
   padding: 0px;
   box-sizing: border-box;
 }
+
 *{
   font-family: 'Rubik', sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
 }
 
 .header-background{
@@ -25,12 +23,13 @@ body{
 
 .home{
   margin: 0px;
+  padding-top: 10px;
   background-color: #806E8E;
   width: 1200px;
   display:block;
   list-style: none ;
   float:left;
-  justify: center;
+  align-items: center;
 }
 
 .home li a{
@@ -58,18 +57,13 @@ body{
   list-style: none;
 }
 
-/* .currency .languages{
-  background: red;
-  border: none;
-
-} */
-
 .contenedorlogo{
   width: 30%;
   background: #806E8E;
   margin: 0px;
-  display:block;
+  display:flex;
   float: left;
+  align: center;
 }
 
 .logo{
@@ -86,26 +80,29 @@ body{
   background: #806E8E;
   padding-top: 25px;
   margin-left: 0px;
-  display:block;
+  display:flex;
   float:right;
+  align: center;
 }
 
 .search{
   width: 650px;
   height: 40px;
   padding-top: 20px;
+  margin-top:5px;
   background-color: #e5e2e8;
   border: none;
+  align: center;
 }
 
-
 .contenedorsearch button{
-  display: inline-block;
+  display: inline-flex;
   background: #e5e2e8;
   margin:10px;
   border: none;
   width: 75px;
   height: 40px;
+  align: center;
 }
 
 .banner {
@@ -121,7 +118,7 @@ body{
 .barra {
   background: #FFD965;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
   width: 100%;
   height: 60px;
 }
@@ -131,11 +128,12 @@ body{
   color: black;
   text-decoration: none;
   margin: 2px 10px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   font-size: 18px;
   font-style: normal;
   display:block;
   list-style: none;
+  align-items: center;
 }
 
 /* color al pasar el cursor */
@@ -149,13 +147,17 @@ body{
   list-style: none;
 }
 
+/* elementos submenu categoria */
+.menu li ul li{
+  padding: 7px;
+  font-size: 16px;
+}
 /* desaparecen los submenu */
 .menu li ul{
   display:none;
   position: absolute;
   min-width: 140px;
   list-style: none;
-
   background-color: #FFD965;
   color: black;
   text-decoration: none;
@@ -188,11 +190,24 @@ body{
   padding-left: 0px;
   background-color: #ffffff;
   float: right;
-  font-size: 15px;
+  text-decoration: none;
+}
+
+.columna div ul{
+  padding-inline-start: 15px;
+}
+
+/* languages list */
+.columna div ul li{
+  list-style: none;
+  font-size: 18px;
+  color: #312d34;
+  padding: 4px;
 }
 
 article{
   text-align: left;
+  color: #212a20;
   font-size: 20px;
   padding: 20px;
   margin-bottom: 15px;
@@ -223,30 +238,21 @@ footer {
   width:100%;
   margin:auto;
   max-width:1200px;
+  padding: 10px;
 }
 .container-body{
+  margin-bottom: 10px;
   display:flex;
   justify-content: space-between;
 }
-.footer-column1{
-  margin-left: 25px;
-  max-width: 400px;
-}
-.footer-column2{
-  margin-left: 25px;
-  max-width: 400px;
-}
-.footer-column3{
-  margin-left: 25px;
-  max-width: 400px;
-}
-.footer-column4{
+.footer-column1 .footer-column2 .footer-column3 .footer-column4{
   margin-left: 25px;
   max-width: 400px;
 }
 
 .row{
-  margin-top:10px;
+  margin-top:11px;
+  padding: 7px;
   display: flex;
 }
 
@@ -256,11 +262,53 @@ footer {
 }
 
 .row label{
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
 .footer-column4 img{
   width: 200px;
   height: 56px;
+}
+
+.footer-column2 .footer-column3 .footer-column4{
+  margin-top:20px;
+}
+
+.container-footer{
+  width: 100%;
+  background-color: #94bd92;
+  color: #ffffff;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.container-footer a{
+  color: #ffffff;
+  text-decoration:  none;
+}
+
+.footer-column1 ul{
+  padding: 10px;
+  padding-inline-start: 10px;
+  list-style: none;
+}
+
+.footer-column2
+ ul{
+  padding: 10px;
+  padding-inline-start: 10px;
+  list-style: none;
+}
+
+.footer-column1 li{
+  padding: 7px;
+  list-style: none;
+}
+
+.footer-column2
+ li{
+  padding: 7px;
+  list-style: none;
 }
